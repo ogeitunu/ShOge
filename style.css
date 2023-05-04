@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(2, 19, 56);
+    margin: 10px;
+    color: rgb(238, 245, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 12px;
+    font: 12px;
+    font-weight: 3px;
+   }
+
+.header{
+    flex: 40%;
+    padding: 10px;
+    background: rgb(77, 3, 70);
+    margin: 0px;
+}
+
+.projects{
+    flex:40% ;
+    padding: 10px;
+    background: rgb(75, 13, 94);
+    margin: 0px;
+}
+
+.skills{
+    flex:40% ;
+    padding: 10px;
+    background: rgb(75, 13, 94);
+    margin: 0px;
+}
+
+section{
+    width: 100%;
+    background: #ea65fc;
+    height: 47vh;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.footer-left{
+float: left;
+margin: 5px;
+
+}
+.footer h3{
+   color: rgb(66, 23, 61); 
+}
+.footer-links{
+    color: rgb(26, 9, 24); 
+    margin: 0 0 10px;
+    padding: 0;
+ }
+
+ .footer-links{
+    display: inline-block; 
+    text-decoration: none;
+    line-height: 1.8;
+    color: inherit;
+    margin: 5px;
+ }
+ .footer-sticker-name{
+    color: rgb(3, 6, 39); 
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+ }
+
+ .footer-right{
+    float: right;
+    }
+
+    
+
+
+
+
+
