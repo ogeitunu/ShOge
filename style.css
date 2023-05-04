@@ -42,7 +42,7 @@ section{
 
 .footer-left{
 float: left;
-margin: 5px;
+margin-left: 7pt;
 
 }
 .footer h3{
@@ -70,8 +70,28 @@ margin: 5px;
 
  .footer-right{
     float: right;
+    margin-right: 7pt;
+    text-align: justify;
     }
 
+    input{
+        display: block;
+        margin: auto;
+        border: 15px;
+        border-radius: 8pt;
+        min-width: 50px;
+        padding: 7px;
+
+    }
+
+    ::-webkit-input-placeholder{
+        color: rgb(157, 68, 241);
+        font-style: italic;
+        
+
+    }
+
+    
     
 
 
