@@ -42,7 +42,7 @@ section{
 
 .footer-left{
 float: left;
-margin-left: 7pt;
+margin-left: 12pt;
 
 }
 .footer h3{
@@ -63,7 +63,7 @@ margin-left: 7pt;
  }
   .footer-right{
     float: right;
-    margin-right: 7pt;
+    margin-right: 12pt;
     text-align: justify;
     }
 
