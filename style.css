@@ -61,14 +61,7 @@ margin-left: 7pt;
     color: inherit;
     margin: 5px;
  }
- .footer-sticker-name{
-    color: rgb(3, 6, 39); 
-    font-size: 12px;
-    margin: 0;
-    font-weight: normal;
- }
-
- .footer-right{
+  .footer-right{
     float: right;
     margin-right: 7pt;
     text-align: justify;
@@ -90,6 +83,13 @@ margin-left: 7pt;
         
 
     }
+
+    button{
+        border-radius: 6px;
+        border: none;
+        font-weight: 4px;
+    }
+
 
     
     
