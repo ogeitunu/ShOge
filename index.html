@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewprt" content="width=device-width, initial-scale=1.0">
-        <title>CV|Portfolio</title>
+        <title>Resume|Portfolio</title>
         <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
@@ -14,7 +14,7 @@
 <!--Header-->
 <div class="header">
     <div class="flex-container">
-    <h1 style="font-size: 18px; color: blanchedalmond;">My Portfolio Website</h1>
+    <h1 style="font-size: 18px; color: blanchedalmond;">Portfolio Website</h1>
     <button><img src="Mala/Oge Screenshot_20230422-173434- (1).png" alt="Profile Photo" width="190" height="150 "></button>
     <p style="font-size: 14px; color: blanchedalmond;"><b>Ogechukwu Aina</b> <br> Jnr. Front-End Developer| Product Manager</p>
     <h4 style="color: rgb(28, 118, 170); font-size: 15px;"><b>ABOUT ME:</b></h4>
@@ -27,8 +27,8 @@
     <div class="projects">
     <div class="flex-container">
     <p style="font-size: 11px;"><b style="font-size: 14px;">Phone Contact:</b> +2348067901364</p>
-    <p style="font-size: 11px;"><b style="font-size: 14px;">E-mail:</b> <a href="ogeitunu1@gmail.com" style="font-size: 12px;">Email Address</a></p>
-    <a href="https://www.linkedin.com/in/ogechukwu-aina-msc-9a326321a" style="font-size: 12px;">My linkedin handle </a> <br>
+    <a href="ogeitunu1@gmail.com" style="font-size: 12px; color:rgb(28, 118, 170);">Email Address</a>
+    <a href="https://www.linkedin.com/in/ogechukwu-aina-msc-9a326321a" style="font-size: 12px; color:rgb(28, 118, 170);">linkedin handle </a> <br>
     <h1 style="font-size: 14px;"><b>Professional Experience</b> </h1>
     <h6 style="font-size: 12px; font-weight:10px;">Total Professional Business Experience (5 years) </h6>
     <h4 style="font-size: 14px;"> <b>EDUCATION</b></h4>
@@ -44,7 +44,7 @@
 <div class="skills">
     <div class="flex-container">
         <p style="font-size: 12px;"><b style="font-size: 15px;">Job Skills: <br> </b> ● Front-End Development,<br> ● Product Development and Managgement,<br>● Design thinking & Customer Relationship management  </p> <br>
-        <p style="font-size: 12px;"><b>●Technical Skills: <br> </b>● HTML5, CSS, JavaScript, Google Workspace tools ,<br> ● Google Analytics, Agile methodology, Microsoft office tools <br>● Open Source Contributor (GSSOC'23)</p> <br>
+        <p style="font-size: 12px;"><b>Technical Skills: <br> </b>● HTML5, CSS, JavaScript, Google Workspace tools ,<br> ● Google Analytics, Agile methodology, Microsoft office tools <br>● Open Source Contributor (GSSOC'23)</p> <br>
         <p style="font-size: 12px;"><b style="font-size: 14px;">Soft Skills: <br> </b> ● Communication, Interpersonal skill, <br>● Managerial and Leadership skills, <br> ● A Quick learner and Eye for details </p> <br>
         <p style="font-size: 12px;"><b style="font-size: 14px;">Certifications:</b> <br> Likedin: Technical Writing <br> Product Management|Project Management: Linkedin, 2022 <br> Market Analytics, Linkedin 2022, <br>SCRUM Master, Boston University (Innovation Lab), 2022 </p>
     </div>
@@ -77,50 +77,13 @@
     <br>
     <p style="font-weight:bold; font-size: 16px;  ">Contact Me</p>
     <form action="Fill The Form Below" method="post">
-    <input type="text" name="email" placeholder="Email">
-    <textarea="text" name="message" placeholder="Message"></textarea><br><button><p style="font-size: 11px;">Send</p></button>  
+    <input type="text" name="email" placeholder="Email"> <br>
+    <input type="text" name="Message" placeholder="Message">
+    <textarea="text" name="message" placeholder="Message"></textarea><br>
+    <button><p style="font-size: 11px;">Send</p></button>  
     </form>
 </div> 
 </section> 
-
-  <div class="container">
-    <h1>Sign Up</h1>
-    <form id="signup-form">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" required>
-
-      <button type="submit" id="signup-btn">Sign Up</button>
-    </form>
-  </div>
-
-  <script src="script.js">
-    document.getElementById("signup-form").addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent form submission
-
-  // Get form values
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var password = document.getElementById("password").value;
-
-  // Do something with the form values (e.g., send them to a server)
-  console.log("Name: " + name);
-  console.log("Email: " + email);
-  console.log("Password: " + password);
-
-  // Clear form fields
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("password").value = "";
-});
-
-  </script>
-
-    
+   
 </body>
 </html>

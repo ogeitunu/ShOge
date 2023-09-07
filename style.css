@@ -84,11 +84,50 @@ margin-left: 12pt;
 
     }
 
-    button{
+    .imgbutton{
         border-radius: 6px;
         border: none;
         font-weight: 4px;
+        height: 25vh;
+        width: 29vh;
     }
+
+    
+
+      .footer-right-button{
+        height: 6vh;
+        width: 12vh;
+        border-radius: 4px;
+        padding: 8px;
+
+      }
+
+      .footer-right-{
+        height: 6vh;
+        width: 12vh;
+        border-radius: 4px;
+        padding: 8px;
+
+      }
+
+      .input[type="Message"]{
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+
+
+      
+
+
+
+      
+
+    
+
+    
+
+          
 
 
     
