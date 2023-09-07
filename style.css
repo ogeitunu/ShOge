@@ -110,10 +110,14 @@ margin-left: 12pt;
 
       }
 
-      .input[type="Message"]{
+      .input[type="text"]{
         padding: 5px;
         border-radius: 3px;
         border: 1px solid #ccc;
+      }
+
+      .footer-right-button{
+        padding: 2px;
       }
 
 
